@@ -1,8 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #E8CBC0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(
+        to left,
+        rgba(177, 144, 177, 0.600),
+        rgba(74, 63, 74, 0.400)),
+    url(../background.jpg);
+    background-size: cover;
 }
 
 h1 {
